@@ -340,7 +340,7 @@
     gap: 20px;
     color: white;
     background-color: #0e0c0e;
-    padding: 1rem;
+    padding: 0rem 1rem;
   }
   .main-card h3 {
     color: aqua;
@@ -375,6 +375,7 @@
     display: inline block;
     background-color: grey;
     padding: 1rem;
+    border-radius: 50px;
   }
   .main-card footer .footer1 {
     display: flex;
