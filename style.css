@@ -85,13 +85,13 @@
   }
   .card-holder .img-2 {
     position: absolute;
-    left: 40px;
+    left: 20px;
     width: 50%;
   }
   .card-holder .img-3 {
     position: absolute;
-    top: 180px;
-    right: 10px;
+    top: 150px;
+    right: 5px;
     width: 40%;
   }
 }
