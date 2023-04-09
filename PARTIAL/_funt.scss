@@ -106,7 +106,7 @@
         .cta-text{
             position: absolute;
             bottom: -20px;
-            left: 50px;
+            left: 20px;
             display: inline-block;
             display: flex;
             width: 60%;
@@ -156,6 +156,7 @@
             .head{
                 display: flex;
                 justify-content: space-between;
+                padding: 1rem;
                 img{
                     width: 60%;
                 }
@@ -175,7 +176,7 @@
         grid-auto-columns: 50%;
         overscroll-behavior-inline: contain;
         scroll-snap-type: inline mandatory;
-        padding: 2rem;
+        padding: 3rem;
                 img{
                     width: 100%;
                 }

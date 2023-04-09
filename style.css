@@ -210,7 +210,7 @@
 .modernfun .slides-container2 .cta .cta-text {
   position: absolute;
   bottom: -20px;
-  left: 50px;
+  left: 20px;
   display: inline-block;
   display: flex;
   width: 60%;
@@ -254,6 +254,7 @@
   .modernfun .head {
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
   }
   .modernfun .head img {
     width: 60%;
@@ -273,7 +274,7 @@
     grid-auto-columns: 50%;
     overscroll-behavior-inline: contain;
     scroll-snap-type: inline mandatory;
-    padding: 2rem;
+    padding: 3rem;
   }
   .modernfun .slides-container img {
     width: 100%;
