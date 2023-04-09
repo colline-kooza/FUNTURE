@@ -253,7 +253,8 @@
   }
   .modernfun .head {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     padding: 1rem;
   }
   .modernfun .head img {
