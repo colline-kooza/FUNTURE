@@ -391,4 +391,247 @@
   .main-card footer .footer1 h4 {
     font-size: 25px;
   }
+}
+.main-card {
+  background-color: rgb(128, 0, 0);
+}
+.main-card .icon {
+  display: flex;
+  gap: 40rem;
+  font-size: 30px;
+}
+.main-card .icon:hover {
+  color: red;
+}
+.main-card .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card .image img {
+  width: 30%;
+}
+
+@media (max-width: 500px) {
+  .main-card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    background-color: #0e0c0e;
+    padding: 0rem 1rem;
+  }
+  .main-card h3 {
+    color: aqua;
+  }
+  .main-card .icon {
+    display: flex;
+    gap: 16rem;
+  }
+  .main-card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-card .image img {
+    width: 80%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+  .main-card .container {
+    display: flex;
+    gap: 12rem;
+  }
+  .main-card .container-2 {
+    display: flex;
+    gap: 10rem;
+  }
+  .main-card .container-2 .image-2 img {
+    border-radius: 50px;
+    width: 60%;
+  }
+  .main-card footer {
+    display: inline block;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50px;
+  }
+  .main-card footer .footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    border-radius: 50px;
+  }
+  .main-card footer .footer1 i {
+    font-size: 25px;
+  }
+  .main-card footer .footer1 h4 {
+    font-size: 25px;
+  }
+}
+.main-card {
+  background-color: rgb(128, 0, 0);
+}
+.main-card .icon {
+  display: flex;
+  gap: 40rem;
+  font-size: 30px;
+}
+.main-card .icon:hover {
+  color: red;
+}
+.main-card .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card .image img {
+  width: 30%;
+}
+
+@media (max-width: 500px) {
+  .main-card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    background-color: #0e0c0e;
+    padding: 0rem 1rem;
+  }
+  .main-card h3 {
+    color: aqua;
+  }
+  .main-card .icon {
+    display: flex;
+    gap: 16rem;
+  }
+  .main-card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-card .image img {
+    width: 80%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+  .main-card .container {
+    display: flex;
+    gap: 12rem;
+  }
+  .main-card .container-2 {
+    display: flex;
+    gap: 10rem;
+  }
+  .main-card .container-2 .image-2 img {
+    border-radius: 50px;
+    width: 60%;
+  }
+  .main-card footer {
+    display: inline block;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50px;
+  }
+  .main-card footer .footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    border-radius: 50px;
+  }
+  .main-card footer .footer1 i {
+    font-size: 25px;
+  }
+  .main-card footer .footer1 h4 {
+    font-size: 25px;
+  }
+}
+.main-card {
+  background-color: rgb(128, 0, 0);
+}
+.main-card .icon {
+  display: flex;
+  gap: 40rem;
+  font-size: 30px;
+}
+.main-card .icon:hover {
+  color: red;
+}
+.main-card .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card .image img {
+  width: 30%;
+}
+
+@media (max-width: 500px) {
+  .main-card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    background-color: #0e0c0e;
+    padding: 0rem 1rem;
+  }
+  .main-card h3 {
+    color: aqua;
+  }
+  .main-card .icon {
+    display: flex;
+    gap: 16rem;
+  }
+  .main-card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-card .image img {
+    width: 80%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+  .main-card .container {
+    display: flex;
+    gap: 12rem;
+  }
+  .main-card .container-2 {
+    display: flex;
+    gap: 10rem;
+  }
+  .main-card .container-2 .image-2 img {
+    border-radius: 50px;
+    width: 60%;
+  }
+  .main-card footer {
+    display: inline block;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50px;
+  }
+  .main-card footer .footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    border-radius: 50px;
+  }
+  .main-card footer .footer1 i {
+    font-size: 25px;
+  }
+  .main-card footer .footer1 h4 {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
