@@ -163,7 +163,7 @@
 }
 .modernfun .head img {
   border-radius: 50%;
-  width: 50%;
+  width: 60px;
 }
 .modernfun .head h3 {
   font-size: 22px;
@@ -371,7 +371,7 @@
     padding: 1rem;
   }
   .modernfun .head img {
-    width: 100%;
+    width: 40px;
   }
   .modernfun .search {
     display: flex;
