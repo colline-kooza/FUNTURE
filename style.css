@@ -163,7 +163,7 @@
 }
 .modernfun .head img {
   border-radius: 50%;
-  width: 1%;
+  width: 50%;
 }
 .modernfun .head h3 {
   font-size: 22px;
@@ -201,8 +201,8 @@
 }
 .modernfun .slides-container img {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 .modernfun .slides-container .slide {
   background-color: rgba(0, 0, 0, 0.731);
@@ -371,7 +371,7 @@
     padding: 1rem;
   }
   .modernfun .head img {
-    width: 100%;
+    width: 60%;
   }
   .modernfun .search {
     display: flex;
