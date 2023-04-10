@@ -73,6 +73,7 @@
 background-color: rgba(255, 255, 0, 0.497);
     }
 }
+
 @media(max-width:500px){
     .card-holder{
         display: flex;
@@ -100,6 +101,36 @@ background-color: rgba(255, 255, 0, 0.497);
              right: 5px;
             width: 150px;
             height: 150px;
+        }
+    }
+}
+@media(max-width:480px){
+    .card-holder{
+        display: flex;
+        gap: 50px;
+        padding: 2rem;
+        width: 100%;
+        height: 100vh;
+        .img-1{
+            position: absolute;
+        top: 80px;
+        left: 2px;
+        width: 250PX;
+        height: 250px;
+        }
+        .img-2{
+            position: absolute;
+            top: 380px;
+            left: px;
+            width: 150px;
+            height: 150px;
+        }
+        .img-3{
+            position: absolute;
+            top: 300px;
+             right: 5px;
+             width: 200px;
+             height: 200px;
         }
     }
 }

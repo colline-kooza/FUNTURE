@@ -104,6 +104,36 @@
     height: 150px;
   }
 }
+@media (max-width: 480px) {
+  .card-holder {
+    display: flex;
+    gap: 50px;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+  }
+  .card-holder .img-1 {
+    position: absolute;
+    top: 80px;
+    left: 2px;
+    width: 250PX;
+    height: 250px;
+  }
+  .card-holder .img-2 {
+    position: absolute;
+    top: 380px;
+    left: px;
+    width: 150px;
+    height: 150px;
+  }
+  .card-holder .img-3 {
+    position: absolute;
+    top: 300px;
+    right: 5px;
+    width: 200px;
+    height: 200px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -330,6 +360,72 @@
     padding: 1rem;
   }
 }
+@media (max-width: 480px) {
+  .modernfun {
+    width: 100%;
+  }
+  .modernfun .head {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+  }
+  .modernfun .head img {
+    width: 50%;
+  }
+  .modernfun .search {
+    display: flex;
+    gap: 10px;
+  }
+  .modernfun .search input {
+    font-size: 25px;
+    color: black;
+  }
+  .modernfun .slides-container {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 20px;
+    grid-auto-columns: 50%;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    padding: 3rem;
+  }
+  .modernfun .slides-container img {
+    width: 130px;
+    height: 130px;
+  }
+  .modernfun .slides-container .slide {
+    padding: 1rem;
+  }
+  .modernfun .slides-container .slide a {
+    color: white;
+    text-decoration: none;
+  }
+  .modernfun .slides-container2 {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    grid-auto-columns: 100%;
+    overscroll-behavior-inline: contain;
+    padding: 1rem;
+  }
+  .modernfun .slides-container2 .cta .cta-image img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 80%;
+  }
+  .modernfun footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
 .main-card {
   background-color: rgb(128, 0, 0);
 }
@@ -443,27 +539,31 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 15px;
     color: white;
     background-color: #0e0c0e;
-    padding: 0rem 1rem;
+    padding: 2rem 1rem;
   }
   .main-card h3 {
-    color: aqua;
+    color: wheat;
   }
   .main-card .icon {
     display: flex;
     gap: 16rem;
+    margin-top: 15px;
   }
   .main-card .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
   }
   .main-card .image img {
     width: 80%;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+  }
+  .main-card .text p {
+    margin-top: 5px;
   }
   .main-card .container {
     display: flex;
@@ -478,10 +578,12 @@
     width: 60%;
   }
   .main-card footer {
-    display: inline block;
     background-color: grey;
     padding: 1rem;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main-card footer .footer1 {
     display: flex;
@@ -524,27 +626,31 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 15px;
     color: white;
     background-color: #0e0c0e;
-    padding: 0rem 1rem;
+    padding: 2rem 1rem;
   }
   .main-card h3 {
-    color: aqua;
+    color: wheat;
   }
   .main-card .icon {
     display: flex;
     gap: 16rem;
+    margin-top: 15px;
   }
   .main-card .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
   }
   .main-card .image img {
     width: 80%;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+  }
+  .main-card .text p {
+    margin-top: 5px;
   }
   .main-card .container {
     display: flex;
@@ -559,10 +665,12 @@
     width: 60%;
   }
   .main-card footer {
-    display: inline block;
     background-color: grey;
     padding: 1rem;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main-card footer .footer1 {
     display: flex;
@@ -599,33 +707,41 @@
   width: 30%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .main-card {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     color: white;
     background-color: #0e0c0e;
-    padding: 0rem 1rem;
+    padding: 2rem 1rem;
   }
   .main-card h3 {
-    color: aqua;
+    color: wheat;
   }
   .main-card .icon {
     display: flex;
     gap: 16rem;
+    margin-top: 10px;
+  }
+  .main-card p {
+    margin-top: 10px;
   }
   .main-card .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
   }
   .main-card .image img {
     width: 80%;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+  }
+  .main-card .text p {
+    margin-top: 5px;
   }
   .main-card .container {
     display: flex;
@@ -640,10 +756,79 @@
     width: 60%;
   }
   .main-card footer {
-    display: inline block;
     background-color: grey;
     padding: 1rem;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-card footer .footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    border-radius: 50px;
+  }
+  .main-card footer .footer1 i {
+    font-size: 25px;
+  }
+  .main-card footer .footer1 h4 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .main-card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #0e0c0e;
+    padding: 2rem 1rem;
+  }
+  .main-card h3 {
+    color: wheat;
+  }
+  .main-card .icon {
+    display: flex;
+    gap: 16rem;
+    margin-top: 15px;
+  }
+  .main-card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .main-card .image img {
+    width: 80%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  }
+  .main-card .text p {
+    margin-top: 5px;
+  }
+  .main-card .container {
+    display: flex;
+    gap: 12rem;
+  }
+  .main-card .container-2 {
+    display: flex;
+    gap: 10rem;
+  }
+  .main-card .container-2 .image-2 img {
+    border-radius: 50px;
+    width: 60%;
+  }
+  .main-card footer {
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main-card footer .footer1 {
     display: flex;

@@ -226,3 +226,73 @@
             }
         }
     }
+    @media(max-width:480px){
+        .modernfun{
+            width: 100%;
+            .head{
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                padding: 1rem;
+                img{
+                    width: 50%;
+                }
+            }
+            .search{
+                display: flex;
+                gap: 10px;
+                input{
+                    font-size: 25px;color: black;
+
+                }
+            }
+            .slides-container{
+                display: grid;
+        grid-auto-flow: column;
+        overflow-x: auto;
+        gap: 20px;
+        grid-auto-columns: 50%;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+        padding: 3rem;
+                img{
+                    width: 130px;
+                    height: 130px;
+                }
+                .slide{
+                    padding: 1rem;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .slides-container2{
+                display: grid;
+        grid-auto-flow: column;
+        overflow-x: auto;
+        grid-auto-columns: 100%;
+        overscroll-behavior-inline: contain;
+        padding: 1rem;
+                .cta{
+                .cta-image{
+                    img{
+                        border-top-left-radius: 50%;
+                        border-top-right-radius: 50%;
+                         border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;   
+                       width: 80%;
+                    }
+                }
+                }
+            }
+            footer{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                padding: 1rem;
+            }
+        }
+    }

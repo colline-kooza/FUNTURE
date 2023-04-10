@@ -17,31 +17,42 @@
         }
     }
 }
-@media(max-width:500px){
+
+@media(max-width:700px){
     .main-card{
         width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
         color: white;
         background-color: #0e0c0e;
-        padding: 0rem 1rem;
+        padding: 2rem 1rem;
         h3{
-            color: aqua;
+            color: wheat;
         }
         .icon{
             display: flex;
             gap: 16rem;
+            margin-top: 10px;
+        }
+        p{
+            margin-top: 10px;
         }
         .image{
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 5px;
             img{
                 width: 80%;
                 border-top-right-radius: 50%;
                 border-top-left-radius: 50%;
+            }
+        }
+        .text{
+            p{
+                margin-top: 5px;
             }
         }
         .container{
@@ -59,10 +70,84 @@
              }
         }
         footer{
-            display: inline block;
             background-color: grey;
             padding: 1rem;
             border-radius: 50px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        .footer1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            width: 80%;
+            border-radius: 50px;
+            i{
+                font-size: 25px;
+            }
+            h4{
+                font-size: 25px;
+            }
+        }    
+        }
+    }
+}
+@media(max-width:500px){
+    .main-card{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        // gap: 10px;
+        color: white;
+        background-color: #0e0c0e;
+        padding: 2rem 1rem;
+        h3{
+            color: wheat;
+        }
+        .icon{
+            display: flex;
+            gap: 16rem;
+            margin-top: 15px;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5px;
+            img{
+                width: 80%;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+            }
+        }
+        .text{
+            p{
+                margin-top: 5px;
+            }
+        }
+        .container{
+            display: flex;
+            gap: 12rem;
+        }
+        .container-2{
+             display: flex;
+             gap: 10rem;
+             .image-2{
+                img{
+                    border-radius: 50px;
+                    width: 60%;
+                }
+             }
+        }
+        footer{
+            background-color: grey;
+            padding: 1rem;
+            border-radius: 50px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
         .footer1{
             display: flex;
             justify-content: center;
