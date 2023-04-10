@@ -356,22 +356,24 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     color: white;
     background-color: #0e0c0e;
     padding: 2rem 1rem;
   }
   .main-card h3 {
-    color: aqua;
+    color: wheat;
   }
   .main-card .icon {
     display: flex;
     gap: 16rem;
+    margin-top: 30px;
   }
   .main-card .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
   }
   .main-card .image img {
     width: 80%;
@@ -394,10 +396,12 @@
     width: 60%;
   }
   .main-card footer {
-    display: inline block;
     background-color: grey;
     padding: 1rem;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main-card footer .footer1 {
     display: flex;

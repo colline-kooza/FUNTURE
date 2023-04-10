@@ -23,21 +23,23 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
         color: white;
         background-color: #0e0c0e;
         padding: 2rem 1rem;
         h3{
-            color: aqua;
+            color: wheat;
         }
         .icon{
             display: flex;
             gap: 16rem;
+            margin-top: 30px;
         }
         .image{
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 10px;
             img{
                 width: 80%;
                 border-top-right-radius: 50%;
@@ -64,10 +66,12 @@
              }
         }
         footer{
-            display: inline block;
             background-color: grey;
             padding: 1rem;
             border-radius: 50px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
         .footer1{
             display: flex;
             justify-content: center;
