@@ -372,7 +372,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .main-card .image img {
     width: 80%;
@@ -380,7 +380,7 @@
     border-top-left-radius: 50%;
   }
   .main-card .text p {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .main-card .container {
     display: flex;
