@@ -356,7 +356,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 10px;
     color: white;
     background-color: #0e0c0e;
     padding: 2rem 1rem;
