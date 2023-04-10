@@ -305,7 +305,7 @@
     padding: 1rem;
   }
   .modernfun .head img {
-    width: 40%;
+    width: 50%;
   }
   .modernfun .search {
     display: flex;
@@ -378,7 +378,7 @@
     gap: 10px;
   }
   .modernfun .search input {
-    font-size: 22px;
+    font-size: 20px;
     color: black;
   }
   .modernfun .slides-container {
