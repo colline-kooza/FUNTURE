@@ -16,9 +16,12 @@
   position: absolute;
   top: 80;
   left: 2px;
-  width: 50%;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: solid yellow;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card-holder .img-1:hover {
   border: solid blue;
@@ -29,6 +32,8 @@
   left: 30px;
   border-radius: 50%;
   width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card-holder .img-2:hover {
   border: solid blue;
@@ -81,18 +86,22 @@
     position: absolute;
     top: 80;
     left: 2px;
-    width: 60%;
+    width: 200PX;
+    height: 200px;
   }
   .card-holder .img-2 {
     position: absolute;
-    left: 20px;
-    width: 50%;
+    top: 280px;
+    left: px;
+    width: 150px;
+    height: 150px;
   }
   .card-holder .img-3 {
     position: absolute;
     top: 150px;
     right: 5px;
-    width: 40%;
+    width: 150px;
+    height: 150px;
   }
 }
 * {
@@ -109,7 +118,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
 .modernfun .head {
   display: flex;
@@ -124,10 +133,10 @@
 }
 .modernfun .head img {
   border-radius: 50%;
-  width: 7%;
+  width: 1%;
 }
 .modernfun .head h3 {
-  font-size: 30px;
+  font-size: 22px;
 }
 .modernfun .head i {
   font-size: 30px;
@@ -144,7 +153,7 @@
   border: none;
   font-size: 30px;
   border-radius: 20px;
-  padding: 10px 50px;
+  padding: 10px 30px;
 }
 .modernfun .search i {
   font-size: 40px;
@@ -162,7 +171,8 @@
 }
 .modernfun .slides-container img {
   border-radius: 50%;
-  width: 50%;
+  width: 100px;
+  height: 100px;
 }
 .modernfun .slides-container .slide {
   background-color: rgba(0, 0, 0, 0.731);
@@ -217,7 +227,7 @@
   gap: 40px;
   background-color: rgba(128, 128, 128, 0.83);
   border-radius: 20px;
-  padding: 5px;
+  padding: 15px;
 }
 .modernfun .slides-container2 .cta .cta-text i {
   font-size: 25px;
@@ -236,15 +246,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
 }
 .modernfun footer .footer1:hover {
   color: tomato;
 }
+.modernfun footer .footer1 h5 {
+  text-decoration: none;
+  color: white;
+}
 .modernfun footer .footer1 h5:hover {
-  font-size: 30px;
+  font-size: 10px;
   color: black;
+}
+.modernfun footer .footer1 h5 i {
+  color: aliceblue;
 }
 
 @media (max-width: 500px) {
@@ -258,14 +275,15 @@
     padding: 1rem;
   }
   .modernfun .head img {
-    width: 60%;
+    width: 40%;
   }
   .modernfun .search {
     display: flex;
-    gap: 1px;
+    gap: 10px;
   }
   .modernfun .search input {
-    font-size: 12px;
+    font-size: 20px;
+    color: black;
   }
   .modernfun .slides-container {
     display: grid;
@@ -278,7 +296,8 @@
     padding: 3rem;
   }
   .modernfun .slides-container img {
-    width: 100%;
+    width: 130px;
+    height: 130px;
   }
   .modernfun .slides-container .slide {
     padding: 1rem;
@@ -337,10 +356,10 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
     color: white;
     background-color: #0e0c0e;
-    padding: 0rem 1rem;
+    padding: 2rem 1rem;
   }
   .main-card h3 {
     color: aqua;
@@ -358,6 +377,9 @@
     width: 80%;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+  }
+  .main-card .text p {
+    margin-top: 20px;
   }
   .main-card .container {
     display: flex;

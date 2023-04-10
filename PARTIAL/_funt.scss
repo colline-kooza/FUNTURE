@@ -5,7 +5,7 @@
     height:100%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     .head{
        display: flex;
        justify-content: center;
@@ -18,10 +18,10 @@
        }
        img{
         border-radius: 50%;
-        width: 7%;
+        width: 1%;
        }
        h3{
-        font-size: 30px;
+        font-size: 22px;
        }
        i{
         font-size: 30px;
@@ -38,7 +38,7 @@
             border: none;
             font-size: 30px;
             border-radius: 20px;
-            padding: 10px 50px;
+            padding: 10px 30px;
         }
         i{
             font-size: 40px;
@@ -56,7 +56,8 @@
         padding: 2rem;
         img{
             border-radius: 50%;
-            width: 50%;
+            width: 100px;
+            height: 100px;
         }
         .slide{
             background-color: rgba(0, 0, 0, 0.731);
@@ -113,7 +114,7 @@
             gap: 40px;
             background-color: rgba(128, 128, 128, 0.83);
             border-radius: 20px;
-            padding: 5px;
+            padding: 15px;
           i{
             font-size: 25px;
             color: rgb(252, 41, 4);
@@ -134,15 +135,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-size: 20px;
+            font-size: 17px;
             text-decoration: none;
             &:hover{
                 color: tomato;
             }
             h5{
+                text-decoration: none;
+                color: white;
                 &:hover{
-                    font-size: 30px;
+                    font-size: 10px;
                     color: black;
+            }
+            i{
+                color: aliceblue;
             }
         }
        
@@ -159,14 +165,15 @@
                 gap: 1rem;
                 padding: 1rem;
                 img{
-                    width: 60%;
+                    width: 40%;
                 }
             }
             .search{
                 display: flex;
-                gap: 1px;
+                gap: 10px;
                 input{
-                    font-size: 12px;
+                    font-size: 20px;color: black;
+
                 }
             }
             .slides-container{
@@ -179,7 +186,8 @@
         scroll-snap-type: inline mandatory;
         padding: 3rem;
                 img{
-                    width: 100%;
+                    width: 130px;
+                    height: 130px;
                 }
                 .slide{
                     padding: 1rem;
